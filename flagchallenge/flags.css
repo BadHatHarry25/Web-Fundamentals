@@ -1,0 +1,90 @@
+
+#flagone  {
+    width: 400px;
+    height: 300px;
+    padding: 0;
+}
+
+#flagone:hover  .first {
+    background-color: red;
+}
+
+#flagone:hover  .second {
+    background-color: white;
+}
+
+#flagone:hover  .third {
+    background-color: green;
+}
+
+
+.first  {
+    width: 400px;
+    height: 100px;
+    background-color: black;
+}
+
+.second {
+    width: 400px;
+    height: 100px;
+    background-color:red;
+}
+
+.third  {
+    width: 400px;
+    height: 100px;
+    background-color: yellow
+}
+
+
+
+#flagtwo  {
+    width: 390px;
+    height: 300px;
+    padding: 0;
+    margin: 0; 
+}
+
+#flagtwo:active .fourth {
+    background-color: green ;
+}
+
+#flagtwo:active .fifth {
+    background-color: white ;
+}
+
+#flagtwo:active .sixth {
+    background-color: orangered;
+}
+
+.fourth  {
+    width: 130px;
+    height: 300px;
+    background-color: blue;  
+    padding: 0;
+    margin: 0;
+}
+
+.fifth {
+    width: 130px;
+    height: 300px;
+    background-color:white;   
+    position: relative;
+    bottom: 300px;
+    left: 130px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.sixth  {
+    width: 130px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    bottom: 600px;
+    left: 260px;
+    padding: 0;
+    margin: 0;
+}
+
