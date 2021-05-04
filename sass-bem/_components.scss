@@ -1,0 +1,98 @@
+.navigation {
+    height: 10vh;
+    background-color: $color-primary;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: $font-display;
+    font-size: 20px;
+    color: $color-white;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
+
+    &--form {
+        width: 100%;
+        border: none;
+        background-color: $color-primary-light;
+    }
+}
+
+.intro {
+    text-align: center;
+
+    .intro__heading {
+        color: $color-primary;
+        font-size: 50px;
+    }
+
+    .intro__sub-heading {
+        font-family: $font-display;
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .intro__button {
+        margin: 0 auto;
+    }
+}
+
+.wave {
+    vertical-align: top;
+}
+
+.form {
+    background-color: $color-white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &__input {
+        margin-bottom: 20px;
+    }
+}
+
+.footer {
+    height: 10vh;
+    background-color: $color-primary-light;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thanks {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    .thanks__visit {
+        font-family: $font-display;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    &__button {
+        background-color: $color-secondary;
+        width: 10rem;
+        border-radius: 10px;
+
+
+        padding: 10px 10px;
+        margin-bottom: 20px;
+    }
+}
