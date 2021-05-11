@@ -1,6 +1,7 @@
 body {
   background-image: url(apple-1868496_1280.jpg);
   background-size: cover;
+  animation: transitionIn 5s;
 }
 
 * {
@@ -40,6 +41,7 @@ main {
   flex-direction: column;
   justify-content: center;
   margin-left: 620px;
+  margin-top: 20px;
 }
 
 .main_about {
@@ -47,8 +49,21 @@ main {
   animation: transitionIn 5s;
 }
 
+.main_about:hover {
+  font-size: 40px;
+}
+
+.main_experience:hover {
+  font-size: 40px;
+}
+
+.main_contact:hover {
+  font-size: 40px;
+}
+
 .main_experience {
   animation: transitionIn 6s;
+  margin-bottom: 40px;
 }
 
 i {
@@ -56,7 +71,7 @@ i {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -67,4 +82,8 @@ h2 {
   to {
     opacity: 1;
   }
+}
+a {
+  text-decoration: none;
+  color: black;
 }

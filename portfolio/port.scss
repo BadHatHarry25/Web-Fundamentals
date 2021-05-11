@@ -38,24 +38,39 @@ main {
     flex-direction: column;
     justify-content: center;
     margin-left: 620px;
+    margin-top: 20px;
 }
 
 .main_about {
     margin-bottom: 40px;
     animation: transitionIn 5s;
+}
 
+.main_about:hover {
+    font-size: 40px;
+}
+
+.main_experience:hover {
+    font-size: 40px;
+}
+
+.main_contact:hover {
+    font-size: 40px;
 }
 
 .main_experience {
     animation: transitionIn 6s;
+    margin-bottom: 40px;
 }
+
+
 
 i {
     color: #879D41;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -67,4 +82,9 @@ h2 {
     to {
         opacity: 1;
     }
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
