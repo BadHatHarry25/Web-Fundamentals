@@ -1,15 +1,15 @@
-*   {
+* {
     margin: 0;
     padding: 0;
     font-family: Tahoma, Verdana, sans-serif;
 }
 
-*::selection    {
+*::selection {
     color: white;
     background-color: #1182EB;
 }
 
-body    {
+body {
     background-color: white;
     max-width: 1400px;
     margin: auto;
@@ -22,13 +22,14 @@ header {
     color: rgb(94, 92, 89);
 }
 
-header h1   {
+header h1 {
     font-size: 40px;
 }
+
 /*  */
 
 
-.card  {
+.card {
     width: 300px;
     height: auto;
     border: 1px solid gray;
@@ -52,20 +53,24 @@ header h1   {
     border-radius: 30px;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-decoration: underline;
     font-size: 30px;
 }
 
-#penelope-list  {
+#penelope-list {
     list-style-type: none;
 }
 
-li:hover    {
+li:hover {
     color: #1182EB;
 }
 
-span    {
+span {
     font-size: 1.5em;
     color: #B48CE0;
 }
