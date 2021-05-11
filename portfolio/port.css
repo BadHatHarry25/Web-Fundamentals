@@ -1,10 +1,51 @@
+body {
+  background-image: url(apple-1868496_1280.jpg);
+  background-size: cover;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: Tahoma, Verdana, sans-serif;
 }
 
-body {
-  background-image: url(apple-1868496_1280.jpg);
-  background-size: cover;
+.header {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.header_gary {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  margin-left: 400px;
+}
+
+.header_web {
+  font-family: "Roboto Mono", monospace;
+  margin-left: 750px;
+}
+
+main {
+  font-family: "Roboto Mono", monospace;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 620px;
+}
+
+.main_about {
+  margin-bottom: 40px;
+}
+
+i {
+  color: #879D41;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Roboto Mono", monospace;
 }
