@@ -16,8 +16,12 @@ h1 {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
     margin-left: 400px;
+    animation: transitionIn 2s;
 
+}
 
+.header_web {
+    animation: transitionIn 4s;
 }
 
 .header_web {
@@ -38,6 +42,12 @@ main {
 
 .main_about {
     margin-bottom: 40px;
+    animation: transitionIn 5s;
+
+}
+
+.main_experience {
+    animation: transitionIn 6s;
 }
 
 i {
@@ -47,4 +57,14 @@ i {
 h2 {
     font-size: 40px;
     font-family: 'Roboto Mono', monospace;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
