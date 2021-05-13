@@ -1,7 +1,11 @@
 body {
     background-image: url(apple-1868496_1280.jpg);
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     animation: transitionIn 5s;
+    background-color: #F0F0F0;
 }
 
 * {
