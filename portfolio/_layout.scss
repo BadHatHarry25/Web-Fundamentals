@@ -4,12 +4,14 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    animation: transitionIn 5s;
+    animation: transitionIn 4s;
     background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+
     font-family: Tahoma, Verdana, sans-serif;
 }

@@ -4,37 +4,47 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  animation: transitionIn 5s;
+  animation: transitionIn 4s;
   background-color: #F0F0F0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 * {
-  margin: 0;
-  padding: 0;
   font-family: Tahoma, Verdana, sans-serif;
 }
 
-h1 {
-  font-size: 50px;
-}
+/*.quote {
+    display: flex;
+    justify-content: center;
+    margin-top: 450px;
 
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+    /*border: 2px solid black;
+    margin-bottom: 0;
+}
+*/
 .main {
   margin-top: 230px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  padding-right: 0;
 }
 
 .main_gary {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: 300;
-  animation: transitionIn 2s;
+  font-size: 30px;
+  /*animation: transitionIn 2s;*/
 }
 
 .main_web {
-  font-family: "Roboto Mono", monospace;
-  animation: transitionIn 4s;
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .navbar navbar-dark bg-dark {
@@ -51,11 +61,11 @@ h1 {
 }
 @media screen and (min-width: 1200px) {
   .main {
-    margin-top: 160px;
+    margin-top: 200px;
   }
 }
 @media screen and (min-width: 992px) {
   .main {
-    margin-top: 160px;
+    margin-top: 200px;
   }
 }
